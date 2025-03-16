@@ -358,3 +358,385 @@ body {
     }
   }
 }
+
+.IdareLab-Baner-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  position: relative;
+
+  .IdareLab-Baner-inner {
+    display: flex;
+    position: relative;
+
+    .container {
+      display: flex;
+      width: 100%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      position: relative;
+    }
+
+    .left-panel {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: absolute;
+      left: -50px; // Выносит за границы
+      height: 100%;
+
+      .service {
+        margin-bottom: 20px;
+
+        .IdareLab-Baner-Name {
+          margin: 0;
+          font-size: 18px;
+          font-weight: bold;
+        }
+
+        .IdareLab-Baner-Opis {
+          font-size: 14px;
+          margin: 5px 0 0;
+        }
+      }
+    }
+
+    .right-panel {
+      background-color: #fff;
+
+      width: 50%;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: auto;
+
+      h1 {
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      .icons {
+        display: flex;
+        gap: 5px;
+        margin: 15px 0;
+
+        .cube {
+          width: 20px;
+          height: 20px;
+
+          transform: rotate(45deg);
+        }
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.Idarelab-Individual-Baner-Wrapper {
+  margin-bottom: 200px;
+  .Idarelab-Individual-Baner-Inner {
+    width: 980px;
+    margin: 0 auto;
+    padding: 36px;
+    background-color: rgba(116, 136, 193, 1);
+    .Idarelab-Individual-Baner-Title {
+      margin-bottom: 40px;
+      .Idarelab-Individual-Baner-Title-Name {
+        font-family: Coolvetica;
+        font-weight: 400;
+        font-size: 48px;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 1);
+        margin-bottom: 40px;
+      }
+      .Idarelab-Individual-Baner-Title-desc {
+        font-family: GillSansC;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        color: rgba(255, 255, 255, 1);
+      }
+    }
+    .Idarelab-Individual-Baner-Service-Objects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+
+      .Idarelab-Individual-Baner-Service-Object {
+        padding: 20px;
+        width: 212px;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        border: 1px solid rgba(255, 255, 255, 1);
+        justify-content: space-between;
+        .Idarelab-Individual-Baner-Service-Object-Title {
+          margin-bottom: 74px;
+          .Idarelab-Individual-Baner-Service-Object-Title-Name {
+            font-family: Coolvetica;
+            font-weight: 400;
+            font-size: 24px;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 1);
+            margin-bottom: 20px;
+          }
+          .Idarelab-Individual-Baner-Service-Object-Title-Desc {
+            width: 172px;
+            font-family: GillSansC;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 100%;
+            color: rgba(255, 255, 255, 1);
+          }
+        }
+        .Idarelab-Individual-Baner-Service-Object-Time {
+          font-family: GillSansC;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 100%;
+          color: rgba(255, 255, 255, 1);
+        }
+      }
+    }
+  }
+}
+
+.IdareLab-Create-Baner-Wrapper {
+  margin-bottom: 200px;
+  .IdareLab-Create-Baner-Inner {
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    gap: 75px;
+    .IdareLab-Create-Baner-Left-Sides {
+      width: 340px;
+      .IdareLab-Create-Baner-Left-Sides-Name {
+        font-family: Coolvetica;
+        font-weight: 400;
+        font-size: 48px;
+        text-transform: uppercase;
+        color: rgba(0, 0, 0, 1);
+        margin-bottom: 81px;
+      }
+      .IdareLab-Create-Baner-Left-Sides-Comment {
+        font-family: GillSans;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(0, 0, 0, 1);
+        margin-bottom: 20px;
+      }
+      .IdareLab-Create-Baner-Left-Sides-Button {
+        padding: 8px 25px;
+        background-color: rgba(25, 9, 74, 1);
+        border: none;
+        .IdareLab-Create-Baner-Left-Sides-Word {
+          font-family: GillSans;
+          font-weight: 400;
+          font-size: 16px;
+          color: rgba(255, 255, 255, 1);
+        }
+      }
+    }
+    .IdareLab-Create-Baner-Right-Sides {
+      display: flex;
+      gap: 130px;
+      .IdareLab-Create-Baner-Right-Sides-Column {
+        .IdareLab-Create-Baner-Right-Sides-Column-Items {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          margin-bottom: 40px;
+          .Bond {
+            font-family: Coolvetica;
+            font-weight: 400;
+            font-size: 24px;
+            text-transform: uppercase;
+            color: rgba(0, 0, 0, 1);
+            margin-bottom: 20px;
+          }
+          .IdareLab-Create-Baner-Right-Sides-Column-Item {
+            font-family: GillSans;
+            font-weight: 400;
+            font-size: 16px;
+            color: rgba(159, 159, 159, 1);
+            margin-bottom: 18px;
+          }
+          .IdareLab-Create-Baner-Right-Sides-Column-Item:last-child {
+            margin-bottom: 0px;
+          }
+          .IdareLab-Create-Baner-Right-Sides-Column-Item:hover {
+            color: rgba(0, 0, 0, 1);
+          }
+        }
+        .IdareLab-Create-Baner-Right-Sides-Column-Items:last-child {
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
+}
+
+.IdareLab-AboutUs-Baner-wrapper {
+  margin-bottom: 80px;
+  .IdareLab-AboutUs-Baner-inner {
+    width: 980px;
+    margin: 0 auto;
+    .IdareLab-AboutUs-Baner-Title {
+      margin-bottom: 40px;
+      .IdareLab-AboutUs-Baner-Title-Name {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        .IdareLab-AboutUs-Baner-Name {
+          font-family: Coolvetica;
+          font-weight: 400;
+          font-size: 48px;
+          text-transform: uppercase;
+          color: rgba(25, 9, 74, 1);
+          align-items: center;
+        }
+        .IdareLab-AboutUs-Baner-Title-Img {
+          align-self: center;
+        }
+      }
+      .IdareLab-AboutUs-Baner-Desc {
+        font-family: GillSans;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(0, 0, 0, 1);
+        width: 606px;
+      }
+    }
+    .IdareLab-AboutUs-Baner-Objects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 86px;
+      .IdareLab-AboutUs-Baner-Object {
+        width: 260px;
+        .IdareLab-AboutUs-Baner-Object-Name {
+          font-family: Coolvetica;
+          font-weight: 400;
+          font-size: 24px;
+          text-transform: uppercase;
+          color: rgba(25, 9, 74, 1);
+          margin-bottom: 20px;
+        }
+        .IdareLab-AboutUs-Baner-Object-Desc {
+          font-family: GillSans;
+          font-weight: 400;
+          font-size: 16px;
+          color: rgba(0, 0, 0, 1);
+        }
+        .IdareLab-AboutUs-Baner-Object-Menu-Items {
+          .IdareLab-AboutUs-Baner-Object-Menu-Item {
+            .IdareLab-AboutUs-Baner-Object-Menu-Item-bond {
+              font-family: GillSans;
+              font-weight: 700;
+              font-size: 16px;
+              color: rgba(0, 0, 0, 1);
+            }
+            .IdareLab-AboutUs-Baner-Object-Menu-Item-normal {
+              font-family: GillSans;
+              font-weight: 400;
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.IdareLab-Rainbow-Baner-wrapper {
+  margin-bottom: 200px;
+  .IdareLab-Rainbow-Baner-Inner {
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    .IdareLab-Rainbow-Baner-FirstBLock {
+      background-color: rgba(202, 85, 85, 1);
+      position: relative;
+      .IdareLab-Rainbow-Baner-FirstBLock-Opis {
+        margin: 36px 36px 231px 36px;
+        .IdareLab-Rainbow-Baner-FirstBLock-Opis-Name {
+          font-family: Coolvetica;
+          font-weight: 400;
+          font-size: 24px;
+          text-transform: uppercase;
+          color: rgba(0, 0, 0, 1);
+          margin-bottom: 36px;
+        }
+        .IdareLab-Rainbow-Baner-FirstBLock-Opis-Desc {
+          font-family: GillSans;
+          font-weight: 400;
+          font-size: 16px;
+          color: rgba(0, 0, 0, 1);
+        }
+      }
+      .IdareLab-Rainbow-Baner-FirstBLock-Opis-Img {
+        position: absolute;
+        bottom: 0;
+        right: 40px;
+      }
+    }
+    .IdareLab-Rainbow-Baner-SecondBLock {
+      background-color: rgba(25, 9, 74, 1);
+      position: relative;
+      .IdareLab-Rainbow-Baner-SecondBLock-Opis {
+        margin: 36px 36px 231px 36px;
+        .IdareLab-Rainbow-Baner-SecondBLock-Opis-Name {
+          font-family: Coolvetica;
+          font-weight: 400;
+          font-size: 24px;
+          text-transform: uppercase;
+          color: rgba(255, 255, 255, 1);
+          margin-bottom: 36px;
+        }
+        .IdareLab-Rainbow-Baner-SecondBLock-Opis-Desc {
+          font-family: GillSans;
+          font-weight: 400;
+          font-size: 16px;
+          color: rgba(255, 255, 255, 1);
+        }
+      }
+      .IdareLab-Rainbow-Baner-SecondBLock-Opis-Img {
+        position: absolute;
+        bottom: 0;
+        right: 40px;
+      }
+    }
+    .IdareLab-Rainbow-Baner-ThirdBLock {
+      background-color: rgba(246, 158, 99, 1);
+      position: relative;
+      .IdareLab-Rainbow-Baner-ThirdBLock-Opis {
+        margin: 36px 36px 231px 36px;
+        .IdareLab-Rainbow-Baner-ThirdBLock-Opis-Name {
+          font-family: Coolvetica;
+          font-weight: 400;
+          font-size: 24px;
+          text-transform: uppercase;
+          color: rgba(0, 0, 0, 1);
+          margin-bottom: 36px;
+        }
+        .IdareLab-Rainbow-Baner-ThirdBLock-Opis-Desc {
+          font-family: GillSans;
+          font-weight: 400;
+          font-size: 16px;
+          color: rgba(0, 0, 0, 1);
+        }
+      }
+      .IdareLab-Rainbow-Baner-ThirdBLock-Opis-Img {
+        position: absolute;
+        bottom: 0;
+        right: 40px;
+      }
+    }
+  }
+}
